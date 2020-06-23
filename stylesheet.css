@@ -1,3 +1,93 @@
-.title {
-  color: #02ccba;
+ body {
+  font-family: "Comic Sans MS";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #000080;
+  color: #fff;
+  height: 50px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.header-logo {
+  float: left;
+  font-size: 30px;
+  padding-left: 10px;
+
+}
+.header-list li{
+  float: left;
+  padding: 10px 12px;
+}
+
+.main {
+  padding: 100px 80px;
+  }
+
+ h1 {
+  font-size: 28px;
+  color: #000080;
+  }
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  color: #000080;
+}
+.contents p {
+    margin: auto;
+    color: #000080;
+}
+.contents-item {
+  float: left;
+  padding-left: 10px;
+}
+
+.contact-form {
+  padding: 250px 80px;
+}
+
+  input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
