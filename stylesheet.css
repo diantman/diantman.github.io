@@ -74,9 +74,10 @@ li {
 
 .footer {
   background-color: #2f5167;
-  color: #fff;
+  color: #000080;
+  margin: 10px 10px;
   height: 120px;
-  padding: 40px;
+  padding: 1750px 80px;
 }
 
 .footer-logo {
